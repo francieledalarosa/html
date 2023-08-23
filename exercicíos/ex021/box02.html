@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>gruping tags</title>
+    <style>
+      body{
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: dimgray;
+        margin: 0px;
+      }
+      header{
+        background-color: rgb(255, 255, 255);
+        padding: 10px;
+        margin: 10px;
+      }
+      nav{
+        background-color: rgba(211, 211, 211, 0.817);
+        padding: 3px;
+        box-shadow: 5px 3px 1px black;
+      }
+      nav > a {
+        text-decoration: none;
+        color: rgb(179, 93, 93);
+        font-weight: bold;
+      }
+      nav > a:hover{
+        text-decoration: underline;
+      }
+      main{
+        background-color: rgb(25, 34, 89);
+        padding: 10px;
+        margin: 8px;
+      }
+      article{
+        background-color: rgba(131, 21, 113, 0.753);
+      }
+      article > aside{
+        background-color:rgba(211, 211, 211, 0.743) ;
+      }
+      footer{
+        background-color: rgb(28, 183, 51);
+        color: white;
+        text-align: center;
+        padding: 1px;
+        margin: 0px;
+      }
+      footer > p{
+        margin: 0px;
+      }
+    </style>
+
+</head>
+<body>
+    <header
+    ><h1>Meu site</h1>
+    <nav>
+        <a href="#">link</a>
+        <a href="#">link</a>
+        <a href="#">link</a>
+        <a href="#">link</a>
+    </nav>
+        <main>
+            <section id="noticias">
+                <article>
+                    <h2>Noticias sobre o Brasil</h2>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione, nisi illum earum, ex sint quisquam eum totam iure reiciendis porro, illo veniam ducimus architecto quos. Labore quibusdam culpa id in?</p>
+                    <aside>
+                        <p>Artigo escrito por</p>
+                    </aside> 
+                    </article>
+                    <article>   
+
+                </article>
+            </section>
+        </main>
+        <footer></footer>
+    </header>
+
+
+
+
+
+</body>
+</html>
